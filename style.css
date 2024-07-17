@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.outer-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 300px;
+    max-width: 300px;
+    background-color: lightgoldenrodyellow;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons button {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.savebtn button {
+    width: 70px;
+    background-color: lightblue;
+}
+
+.buttons #increment {
+    background-color: lightgreen;
+}
+
+.buttons #decrement {
+    background-color: lightcoral;
+}
+
